@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A7C2F3E219CB339003210FE /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C2F3D219CB339003210FE /* BMI.swift */; };
 		8AF0CBF7219A4C950001A6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0CBF6219A4C950001A6D0 /* AppDelegate.swift */; };
 		8AF0CBF9219A4C950001A6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0CBF8219A4C950001A6D0 /* ViewController.swift */; };
 		8AF0CBFC219A4C950001A6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0CBFA219A4C950001A6D0 /* Main.storyboard */; };
 		8AF0CBFE219A4C960001A6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0CBFD219A4C960001A6D0 /* Assets.xcassets */; };
 		8AF0CC01219A4C960001A6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0CBFF219A4C960001A6D0 /* LaunchScreen.storyboard */; };
+		8AF0CC0A219A601B0001A6D0 /* DarkMode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0CC08219A601B0001A6D0 /* DarkMode.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A7C2F3D219CB339003210FE /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		8AF0CBF3219A4C950001A6D0 /* BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF0CBF6219A4C950001A6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF0CBF8219A4C950001A6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		8AF0CBFD219A4C960001A6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF0CC00219A4C960001A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF0CC02219A4C960001A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF0CC09219A601B0001A6D0 /* DarkMode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DarkMode.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8AF0CBFD219A4C960001A6D0 /* Assets.xcassets */,
 				8AF0CBFF219A4C960001A6D0 /* LaunchScreen.storyboard */,
 				8AF0CC02219A4C960001A6D0 /* Info.plist */,
+				8AF0CC08219A601B0001A6D0 /* DarkMode.xcdatamodeld */,
+				8A7C2F3D219CB339003210FE /* BMI.swift */,
 			);
 			path = BMI;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7C2F3E219CB339003210FE /* BMI.swift in Sources */,
 				8AF0CBF9219A4C950001A6D0 /* ViewController.swift in Sources */,
+				8AF0CC0A219A601B0001A6D0 /* DarkMode.xcdatamodeld in Sources */,
 				8AF0CBF7219A4C950001A6D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +344,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AF0CC08219A601B0001A6D0 /* DarkMode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AF0CC09219A601B0001A6D0 /* DarkMode.xcdatamodel */,
+			);
+			currentVersion = 8AF0CC09219A601B0001A6D0 /* DarkMode.xcdatamodel */;
+			path = DarkMode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8AF0CBEB219A4C950001A6D0 /* Project object */;
 }
